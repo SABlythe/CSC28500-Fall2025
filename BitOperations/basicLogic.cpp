@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	   << endl;
     }
 
-    if (a&b)
+  if (a&b)
     {
       cout << "& gave true"
 	   << endl;
@@ -37,5 +37,37 @@ int main(int argc, char *argv[])
       cout << "& gave false"
 	   << endl;
     }
+
+  if (a||b)
+    {
+      cout << "|| gave true"
+	   << endl;
+    }
+  else
+    {
+      cout << "|| gave false"
+	   << endl;
+    }
+
+  if (a|b)
+    {
+      cout << "| gave true"
+	   << endl;
+    }
+  else
+    {
+      cout << "| gave false"
+	   << endl;
+    }
+
+
+  unsigned int c;
+  c = a^b;
+
+  cout << "a^b is " << c << endl;
+  printBinary(c);
+  cout << endl;
+  
+  
   return 0;
 }
