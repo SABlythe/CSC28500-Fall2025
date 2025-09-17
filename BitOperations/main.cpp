@@ -1,3 +1,4 @@
+//simple example usage of printBinary() function
 #include <iostream>
 
 #include "printBinary.hpp"
